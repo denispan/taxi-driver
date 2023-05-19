@@ -1,0 +1,39 @@
+.status_text {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: #41DC63;
+}
+
+.status_text_busy {
+  background-color: #ff3333;
+}
+
+.change_status_text {
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+.change_status_btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.change_status_btn {
+  padding: 20px;
+  background-color: #41DC63;
+  border: none;
+}
+
+.change_status_btn_busy {
+  background-color: #ff3333;
+}
+
+.change_status_btn:disabled {
+  background-color: #404040;
+}
