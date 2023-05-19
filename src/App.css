@@ -16,9 +16,4 @@ body {
   flex-direction: column;
 }
 
-.main {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-  padding: 10px;
-}
+
