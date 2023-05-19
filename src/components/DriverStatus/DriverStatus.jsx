@@ -4,10 +4,7 @@ import cx from "classnames"
 
 
 const DriverStatus = () => {
-  const [driverStatus, setDriverStatus] = useState('свободен')
-
-  console.log(driverStatus);
-
+  const [driverStatus, setDriverStatus] = useState('свободен');
 
   return (
     <div>
@@ -22,14 +19,14 @@ const DriverStatus = () => {
             onClick={() => setDriverStatus('свободен')}
             disabled={driverStatus === 'свободен'}
           >
-            Свободен
+            Я свободен
           </button>
           <button
             className={cx(styles.change_status_btn, styles.change_status_btn_busy)}
             onClick={() => setDriverStatus('занят')}
             disabled={driverStatus === 'занят'}
           >
-            Занят
+            Я занят
           </button>
         </div>
       </div>
