@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Header.module.scss";
-import Notice from '../Notice/Notice';
+import CarNumber from '../CarNumber/CarNumber';
 import mainLogo from "../../assets/img/logo-franc.png";
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
     <header className={styles.header}>
       <img className={styles.logo} src={mainLogo} />
       <div className={styles.btns}>
-        <Notice />
+        <CarNumber />
       </div>
     </header>
   )
